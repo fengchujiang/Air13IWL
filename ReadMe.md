@@ -4,7 +4,7 @@
 
 2⃣️更新配置文件:默认打开所有设备引导扫描,如需关闭修改Config.plist-Misc-Security-ScanPolicy为983299
 
-
+3⃣️上传自用Clover-5018
 
 2019-07-16
 
