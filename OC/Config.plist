@@ -14,6 +14,14 @@
 				<key>Path</key>
 				<string>SSDT-AIR13IWL.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>GPRW</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-GPRW.aml</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array/>
@@ -47,6 +55,20 @@
 				WFExMg==
 				</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>GPRW to XPRW</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>
+				R1BSVwI=
+				</data>
+				<key>Replace</key>
+				<data>
+				WFBSVwI=
+				</data>
+			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -57,7 +79,7 @@
 			<key>RebaseRegions</key>
 			<false/>
 			<key>ResetHwSig</key>
-			<false/>
+			<true/>
 			<key>ResetLogoStatus</key>
 			<false/>
 		</dict>
@@ -439,7 +461,7 @@
 			<key>ShowPicker</key>
 			<true/>
 			<key>Timeout</key>
-			<integer>0</integer>
+			<integer>3</integer>
 			<key>UsePicker</key>
 			<true/>
 		</dict>
@@ -465,24 +487,21 @@
 			<key>RequireVault</key>
 			<false/>
 			<key>ScanPolicy</key>
-			<integer>3080451</integer>
+			<integer>0</integer>
 		</dict>
+		<key>Tools</key>
+		<array/>
 	</dict>
 	<key>NVRAM</key>
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
-			<dict>
-				<key>UIScale</key>
-				<data>
-				Ag==
-				</data>
-			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
 				<string>brcmfx-country=HK</string>
+				<key>bootercfg</key>
+				<string>log=0 debug=0 level=0</string>
 				<key>csr-active-config</key>
 				<data>
 				Zw==
@@ -493,6 +512,8 @@
 		<dict/>
 		<key>LegacyEnable</key>
 		<false/>
+		<key>LegacySchema</key>
+		<dict/>
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>
