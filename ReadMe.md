@@ -14,11 +14,11 @@
 | 显示器 | AU Optronics B133HAN05.A 13.3 FHD 1920x1080     | 6AF:5A2D  |
 | 摄像头 | Integrated Camera                               | 04F2:B61E |
 
-CPU : Intel(R) Core(TM) i5-8265U 1.60GHz Turbo 3.9Ghz 4C8T  
+## CPU : Intel(R) Core(TM) i5-8265U 1.60GHz Turbo 3.9Ghz 4C8T  
 
-驱动 : CPUFriend.kext , CPUFriendProvider.kext
+### 驱动 : CPUFriend.kext , CPUFriendProvider.kext
 
-补丁 : SSDT-XCPM.aml
+### 补丁 : SSDT-XCPM.aml
 
 1.终端执行脚本freqVectorsEdit.sh输入密码,选nano继续,记下高亮绿色的机型Mac-.plist选择一个合适的记下,查看即可不要继续执行,关闭终端;
 
