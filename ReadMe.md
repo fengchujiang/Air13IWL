@@ -14,20 +14,29 @@
 | 显示器 | AU Optronics B133HAN05.A 13.3 FHD 1920x1080     | 6AF:5A2D  |
 | 摄像头 | Integrated Camera                               | 04F2:B61E |
 
-## CPU : Intel(R) Core(TM) i5-8265U 1.60GHz Turbo 3.9Ghz 4C8T  
+### CPU : Intel(R) Core(TM) i5-8265U 1.60GHz Turbo 3.9Ghz 4C8T  
 
-### 驱动 : CPUFriend.kext , CPUFriendProvider.kext
+#### 驱动 : CPUFriend.kext , CPUFriendProvider.kext
 
-### 补丁 : SSDT-XCPM.aml
+#### 补丁 : SSDT-XCPM.aml
 
-1.终端执行脚本freqVectorsEdit.sh输入密码,选nano继续,记下高亮绿色的机型Mac-.plist选择一个合适的记下,查看即可不要继续执行,关闭终端;
+1.终端执行脚本freqVectorsEdit.sh输入密码,选nano继续,记下高亮绿色的机型Mac-551B86E5744E2388.plist(根据自己实际情况选择一个合适的记下),查看即可不要继续执行,关闭终端;
 
-2./System/Library/Extensions/IOPlatfromPluginFamily.kext/Contents/Pluglns/X86PlatformPlugin.kext/Contents/Resources拷贝选择的变频文件 Mac-.plist到桌面，修改最低频率为800Mhz ;
+2./System/Library/Extensions/IOPlatfromPluginFamily.kext/Contents/Pluglns/X86PlatformPlugin.kext/Contents/Resources拷贝Mac-551B86E5744E2388.plist到桌面，修改最低频率为800Mhz ;
 
-3.终端执行脚本ResourceConverter.sh --kext Mac-.plist ;
+3.终端执行脚本ResourceConverter.sh --kext Mac-551B86E5744E2388.plist ;
 
-4.得到CPUFriendProvider.kext (默认输出至用户名主目录下) ;
+4.得到CPUFriendProvider.kext (默认输出至用户名主目录下~/) ;
 
-5.所需脚本在 附件/CPU/ ,变频正常, 双系统切换需要关机切换否则会有高频不降现象. 
+5.所需脚本在 Tools/CPU/ ,变频正常, 双系统切换需要关机切换否则会有高频不降现象. 
 
 ![CPU](Picture/CPU.png)
+
+### 内存 : Samsung 4GB x 2  Dual Channel 1867MHz~2133MHz  LPDDR3
+
+#### 驱动 : AptioMemoryFix-64.efi
+
+内存默认频率为1867MHz , 通过修改隐藏BIOS可以超频到2133MHz ;
+
+BIOS 9RCN22WW版本会卡内存,建议避开使用.
+
