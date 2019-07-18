@@ -14,3 +14,7 @@
 | 显示器 | AU Optronics B133HAN05.A 13.3 FHD 1920x1080     | 6AF:5A2D  |
 | 摄像头 | Integrated Camera                               | 04F2:B61E |
 
+| CPU  | Intel(R) Core(TM) i5-8265U 1.60GHz Turbo 3.9Ghz              | 4C8T                     |                                      |
+| ---- | ------------------------------------------------------------ | ------------------------ | ------------------------------------ |
+|      | 1.添加Clover-ACPI-SSDT-Generate-PluginType加载原生电源管理 ;2.终端执行脚本freqVectorsEdit.sh输入密码,选nano继续,记下高亮绿色的机型Mac-***.plist选择一个合适的记下,查看即可不要继续执行,关闭终端 ;3./System/Library/Extensions/IOPlatfromPluginFamily.kext/Contents/Pluglns/X86PlatformPlugin.kext/Contents/Resources拷贝选择的变频文件 Mac-***.plist到桌面，修改最低频率为800Mhz ;3.终端执行脚本ResourceConverter.sh --kext Mac-***.plist ;4.得到CPUFriendProvider.kext (默认输出至用户名主目录下) ;5.所需脚本在 附件/CPU/ ,变频正常, 双系统切换需要关机切换否则会有高频不降现象. |                          |                                      |
+|      | 驱动                                                         | \EFI\Clover\Kexts\Other\ | CPUFriend.kextCPUFriendProvider.kext |
