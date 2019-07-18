@@ -14,6 +14,8 @@
 | 显示器 | AU Optronics B133HAN05.A 13.3 FHD 1920x1080     | 6AF:5A2D  |
 | 摄像头 | Integrated Camera                               | 04F2:B61E |
 
+## 
+
 ## CPU : Intel(R) Core(TM) i5-8265U 1.60GHz Turbo 3.9Ghz 4C8T  
 
 ### 驱动 : CPUFriend.kext , CPUFriendProvider.kext
@@ -32,6 +34,8 @@
 
 ![CPU](Pictures/CPU.png)
 
+## 
+
 ## 内存 : Samsung 4GB x 2  Dual Channel 1867MHz~2133MHz  LPDDR3
 
 ### 驱动 : AptioMemoryFix-64.efi
@@ -40,9 +44,13 @@
 
 BIOS 9RCN22WW版本会卡内存,建议避开使用.
 
+## 
+
 ## 硬盘 : HFS256GD9TNG-62A0A 250G Nvme SSD  1C5C:1527
 
 ### 驱动 : ApfsDriverLoader-64.efi , HFSPlus.efi
+
+## 
 
 ## 显卡 : Intel UHD Graphics 620 Whiskey Lake-U GT2  8086:3EA0
 
@@ -60,6 +68,8 @@ BIOS 9RCN22WW版本会卡内存,建议避开使用.
 
 ![CPU](Pictures/HDMI.png)
 
+## 
+
 ## 声卡 : Realtek ALC236  8086:A170
 
 ### 驱动 : AppleALC.kext , FakePCIID.kext , FakePCIID_Intel_HDMI_Audio.kext , CodecCommander.kext
@@ -71,6 +81,8 @@ BIOS 9RCN22WW版本会卡内存,建议避开使用.
 内置音频输入输出正常,HDMI音频输出正常
 
 ![CPU](Pictures/ALC236.png)
+
+## 
 
 ## 网卡 : 更换Dell DW1820A BCM4350  14E4:43A3
 
