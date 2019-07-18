@@ -14,11 +14,11 @@
 | 显示器 | AU Optronics B133HAN05.A 13.3 FHD 1920x1080     | 6AF:5A2D  |
 | 摄像头 | Integrated Camera                               | 04F2:B61E |
 
-### CPU : Intel(R) Core(TM) i5-8265U 1.60GHz Turbo 3.9Ghz 4C8T  
+## CPU : Intel(R) Core(TM) i5-8265U 1.60GHz Turbo 3.9Ghz 4C8T  
 
-#### 驱动 : CPUFriend.kext , CPUFriendProvider.kext
+### 驱动 : CPUFriend.kext , CPUFriendProvider.kext
 
-#### 补丁 : SSDT-XCPM.aml
+### 补丁 : SSDT-XCPM.aml
 
 1.终端执行脚本freqVectorsEdit.sh输入密码,选nano继续,记下高亮绿色的机型Mac-551B86E5744E2388.plist(根据自己实际情况选择一个合适的记下),查看即可不要继续执行,关闭终端;
 
@@ -32,9 +32,9 @@
 
 ![CPU](Picture/CPU.png)
 
-### 内存 : Samsung 4GB x 2  Dual Channel 1867MHz~2133MHz  LPDDR3
+## 内存 : Samsung 4GB x 2  Dual Channel 1867MHz~2133MHz  LPDDR3
 
-#### 驱动 : AptioMemoryFix-64.efi
+### 驱动 : AptioMemoryFix-64.efi
 
 内存默认频率为1867MHz , 通过修改隐藏BIOS可以超频到2133MHz ;
 
