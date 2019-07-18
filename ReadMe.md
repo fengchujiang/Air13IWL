@@ -168,8 +168,9 @@ BIOS 9RCN22WW版本会卡内存,建议避开使用.
 
 ## 相关软件,驱动Releases下载地址
 
-| Lilu             | https://github.com/acidanthera/Lilu/releases                 |
+|                  |                                                              |
 | ---------------- | ------------------------------------------------------------ |
+| Lilu             | https://github.com/acidanthera/Lilu/releases                 |
 | VirtualSMC       | https://github.com/acidanthera/VirtualSMC/releases           |
 | WhateverGreen    | https://github.com/acidanthera/WhateverGreen/releases        |
 | AppleALC         | https://github.com/acidanthera/AppleALC/releases             |
