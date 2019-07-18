@@ -64,9 +64,9 @@ BIOS 9RCN22WW版本会卡内存,建议避开使用.
 
 支持亮度调节,支持硬解H264,HEVC .
 
-![CPU](Pictures/UHD620.png)
+![UHD620](Pictures/UHD620.png)
 
-![CPU](Pictures/HDMI.png)
+![HDMI](Pictures/HDMI.png)
 
 ## 
 
@@ -80,7 +80,7 @@ BIOS 9RCN22WW版本会卡内存,建议避开使用.
 
 内置音频输入输出正常,HDMI音频输出正常
 
-![CPU](Pictures/ALC236.png)
+![ALC236](Pictures/ALC236.png)
 
 ## 
 
@@ -136,7 +136,7 @@ BIOS 9RCN22WW版本会卡内存,建议避开使用.
 
 使用Hackintool定制USB由于指纹识别不可用所以删除对应USB端口,最终保留端口为:HS01-USB2 , HS02-USB2 , HS03-TypeC+Sw , HS05-Internal-摄像头 , HS10-Internal-蓝牙 , SS01-USB3 , SS02-USB3 , SS03-TypeC+Sw其他端口都删除,导出USBPorts.kext即可.
 
-![CPU](Pictures/USB.png)
+![USB](Pictures/USB.png)
 
 ## 
 
@@ -158,11 +158,11 @@ BIOS 9RCN22WW版本会卡内存,建议避开使用.
 
 ### Clover更名
 
-![CPU](Pictures/Clover.png)
+![Clover](Pictures/Clover.png)
 
 ### OC更名
 
-![CPU](Pictures/OC.png)
+![OC](Pictures/OC.png)
 
 ## 
 
