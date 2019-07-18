@@ -92,6 +92,10 @@ BIOS 9RCN22WW版本会卡内存,建议避开使用.
 
 添加AirportBrcmFixup.kext启动参数brcmfx-country=HK , 解决5G速率限制.
 
+此网卡需要屏蔽5个针脚,如下图
+
+![DW1820A](Pictures/DW1820A.jpg)
+
 ## 
 
 ## 蓝牙 : 更换Dell DW1820A BCM2045A0  0A5C:6412
