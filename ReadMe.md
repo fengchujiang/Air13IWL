@@ -29,3 +29,5 @@
 4.得到CPUFriendProvider.kext (默认输出至用户名主目录下) ;
 
 5.所需脚本在 附件/CPU/ ,变频正常, 双系统切换需要关机切换否则会有高频不降现象. 
+
+![CPU](Picture/CPU.png)
