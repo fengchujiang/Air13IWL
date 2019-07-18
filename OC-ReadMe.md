@@ -14,7 +14,9 @@ OpenCore-0.0.3-Releases
 
 3⃣️目前已知问题:插入USB设备时会有睡眠秒醒问题,添加0d/6d补丁可解决!
 
+4⃣️整合SSDT-OCOS.aml , SSDT-XCPM.aml , SSDT-PNLF.aml , SSDT-SBUS.aml , SSDT-EC.aml , SSDT-Q11Q12.aml 合并为Air13IWL.aml
 
+5⃣️整合CPUFriendProvider.kext , FakePCIID_Intel_HDMI_Audio.kext , XHCI-unsupported.kext , USBPorts.kext , 蓝牙0A5C-6412空壳驱动 合并为Air13IWL.kext
 
 
 
