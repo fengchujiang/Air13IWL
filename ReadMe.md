@@ -193,6 +193,10 @@ BIOS 9RCN22WW版本会卡内存,建议避开使用.
 | Hackintool       | http://headsoft.com.au/download/mac/Hackintool.zip           |
 | PlistEdit Pro    | https://www.fatcatsoftware.com/plisteditpro/PlistEditPro.zip |
 
+PlistEdit Pro 激活
 
+Name : TNT team 
+
+Serial Number :  PLEDPRO486-SF00-82GR-N8E3-50L2-0A0Q
 
 ## 
