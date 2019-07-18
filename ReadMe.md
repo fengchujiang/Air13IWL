@@ -1,5 +1,7 @@
 # Lenovo 小新 Air 13IWL
 
+(xlivans)
+
 | 系统   | macOS Mojave 10.14.5                            | 18F132    |
 | ------ | ----------------------------------------------- | --------- |
 | CPU    | Intel(R) Core(TM) i5-8265U 1.60GHz Turbo 3.9Ghz | 4C8T      |
