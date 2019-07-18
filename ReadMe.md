@@ -90,11 +90,15 @@ BIOS 9RCN22WW版本会卡内存,建议避开使用.
 
 添加AirportBrcmFixup.kext启动参数brcmfx-country=HK , 解决5G速率限制.
 
+## 
+
 ## 蓝牙 : 更换Dell DW1820A BCM2045A0  0A5C:6412
 
 ### 驱动 : BrcmFirmwareData.kext , BrcmPatchRAM2.kext , BrcmBluetoothInjector.kext
 
 蓝牙在本机目前不能完美,只能近距离使用(大概10cm),目前驱动方法为注入空壳驱动使用4096固件,使用虚拟机大法可以解决距离短的问题,双系统切换需要关机切换否则小概率出现蓝牙丢失大概率出现链接不上设备,睡眠唤醒正常,隔空、接力正常! (虚拟机大法请参考另一篇文档).
+
+## 
 
 ## 键盘 : PS/2 标准键盘  MSFT0001
 
@@ -106,6 +110,8 @@ BIOS 9RCN22WW版本会卡内存,建议避开使用.
 
 支持F11,F12亮度调整键,支持F6,PrtSc触控板开关键.
 
+## 
+
 ## 触控板 : Intel I2C HID  INT34BB
 
 ### 驱动 : VoodooI2C.kext , VoodooI2CHID.kext
@@ -114,9 +120,13 @@ BIOS 9RCN22WW版本会卡内存,建议避开使用.
 
 屏蔽苹果原装I2C驱动,重建缓存,工作正常,多手势正常
 
+## 
+
 ## 摄像头 : Integrated Camera  04F2:B61E
 
 免驱,注意定制USB时不要删除HS05
+
+## 
 
 ## USB : 端口定制 8086:9DED
 
@@ -127,6 +137,8 @@ BIOS 9RCN22WW版本会卡内存,建议避开使用.
 使用Hackintool定制USB由于指纹识别不可用所以删除对应USB端口,最终保留端口为:HS01-USB2 , HS02-USB2 , HS03-TypeC+Sw , HS05-Internal-摄像头 , HS10-Internal-蓝牙 , SS01-USB3 , SS02-USB3 , SS03-TypeC+Sw其他端口都删除,导出USBPorts.kext即可.
 
 ![CPU](Pictures/USB.png)
+
+## 
 
 ## 杂项
 
@@ -140,6 +152,8 @@ BIOS 9RCN22WW版本会卡内存,建议避开使用.
 
 5,添加硬件各项传感器驱动 SMCProcessor.kext , SMCSuperIO.kext
 
+## 
+
 ## 更名
 
 ### Clover更名
@@ -149,6 +163,8 @@ BIOS 9RCN22WW版本会卡内存,建议避开使用.
 ### OC更名
 
 ![CPU](Pictures/OC.png)
+
+## 
 
 ## 相关软件,驱动Releases下载地址
 
@@ -168,3 +184,6 @@ BIOS 9RCN22WW版本会卡内存,建议避开使用.
 | Hackintool       | http://headsoft.com.au/download/mac/Hackintool.zip           |
 | PlistEdit Pro    | https://www.fatcatsoftware.com/plisteditpro/PlistEditPro.zip |
 
+
+
+## 
