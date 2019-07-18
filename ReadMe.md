@@ -30,7 +30,7 @@
 
 5.所需脚本在 Tools/CPU/ ,变频正常, 双系统切换需要关机切换否则会有高频不降现象. 
 
-![CPU](Picture/CPU.png)
+![CPU](Pictures/CPU.png)
 
 ## 内存 : Samsung 4GB x 2  Dual Channel 1867MHz~2133MHz  LPDDR3
 
