@@ -6,7 +6,7 @@ Clover版本5018
 
 2⃣️整合SSDT-XOSI.aml , SSDT-XCPM.aml , SSDT-PNLF.aml , SSDT-SBUS.aml , SSDT-EC.aml , SSDT-Q11Q12.aml , SSDT-GPRW.aml 合并为Air13IWL.aml
 
-3⃣️整合CPUFriendProvider.kext , FakePCIID_Intel_HDMI_Audio.kext , XHCI-unsupported.kext , USBPorts.kext , 蓝牙0A5C-6412空壳驱动 合并为Air13IWL.kext
+3⃣️整合CPUFriendProvider.kext , FakePCIID_Intel_HDMI_Audio.kext , XHCI-unsupported.kext , USBPorts.kext , BrcmBluetoothInjector.kext 合并为Air13IWL.kext
 
 
 
