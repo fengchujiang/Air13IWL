@@ -80,9 +80,9 @@ BIOS 9RCN22WW版本会卡内存,建议避开使用.
 
 采用Properties方法注入,注入ID为99 ;
 
-安装Tools/ALCPlugFix(需要关闭SIP)声卡守护进程(处理3.5mm接口切换)
+安装Tools/ALCPlugFix(需要关闭SIP)声卡守护进程(处理3.5mm接口切换);
 
-内置音频输入输出正常,HDMI音频输出正常
+内置音频输入输出正常,HDMI音频输出正常.
 
 ![ALC236](Pictures/ALC236.png)
 
