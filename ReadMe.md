@@ -126,7 +126,7 @@ BIOS 9RCN22WW版本会卡内存,建议避开使用.
 
 ### 补丁 : Clover使用SSDT-XOSI.aml ; OC使用SSDT-OCOS.aml ; 共用补丁 SSDT-SBUS.aml
 
-屏蔽苹果原装I2C驱动,重建缓存,工作正常,多手势正常
+屏蔽苹果原装I2C驱动,重建缓存,工作正常,多手势正常.
 
 ## 
 
